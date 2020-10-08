@@ -16,7 +16,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('/img/nyc-hero-img.jpg');
+  background-image: url('/img/main-bgimg.jpg');
   min-height: 100%;
 }
 
