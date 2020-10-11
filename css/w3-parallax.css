@@ -7,7 +7,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-main, .bgimg-landscape, .bgimg-animal, .bgimg-portrait, .bgimg-event {
+.bgimg-main, .bgimg-landscape, .bgimg-animal, .bgimg-portrait, .bgimg-event, .bgimg-sport {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,6 +45,11 @@ body, html {
   min-height: 400px;
 }
 
+/* Fourth image (Portfolio) */
+.bgimg-sport {
+  background-image: url("/img/sport-bg.jpg");
+  min-height: 400px;
+}
 
 /* background transparent color for text logo text  */
 #logo-text{
@@ -59,7 +64,7 @@ background-color: rgba(7, 7, 19, 0.658) !important;
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-main, .bgimg-landscape, .bgimg-animal, .bgimg-portrait, .bgimg-event {
+  .bgimg-main, .bgimg-landscape, .bgimg-animal, .bgimg-portrait, .bgimg-event, .bgimg-sport {
     background-attachment: scroll;
     min-height: 400px;
   }
