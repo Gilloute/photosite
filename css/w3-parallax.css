@@ -17,8 +17,8 @@ body, html {
 /* First image (Logo. Full height) */
 .bgimg-main {
   background-image: url('/img/main-bgimg.jpg');
-  min-height: 20%;
-  /*min-height: 400px;*/
+  /*min-height: 20%;*/
+  min-height: 400px;
 }
 
 /* Second image (Portfolio) */
